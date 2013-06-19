@@ -1,0 +1,10 @@
+# This file provides instructions for packaging.
+
+`Acme-Has-Tiny`
+	perl_version_from m`Acme::Has::Tiny`;
+	version_from      m`Acme::Has::Tiny`;
+	readme_from       m`Acme::Has::Tiny`;
+	test_requires     p`Test::Fatal`;
+	test_requires     p`Types::Standard`;
+	.
+

@@ -1,0 +1,19 @@
+# This file contains general metadata about the project.
+
+@prefix : <http://usefulinc.com/ns/doap#>.
+
+`Acme-Has-Tiny`
+	:programming-language "Perl" ;
+	:shortdesc            "tiny implementation of Moose-like "has" keyword";
+	:homepage             <https://metacpan.org/release/Acme-Has-Tiny>;
+	:download-page        <https://metacpan.org/release/Acme-Has-Tiny>;
+	:bug-database         <http://rt.cpan.org/Dist/Display.html?Queue=Acme-Has-Tiny>;
+	:repository           [ a :GitRepository; :browse <https://github.com/tobyink/p5-acme-has-tiny> ];
+	:created              2013-06-19;
+	:license              <http://dev.perl.org/licenses/>;
+	:maintainer           cpan:TOBYINK;
+	:developer            cpan:TOBYINK.
+
+<http://dev.perl.org/licenses/>
+	dc:title  "the same terms as the perl 5 programming language system itself".
+
