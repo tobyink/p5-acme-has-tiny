@@ -339,6 +339,8 @@ __END__
 
 =encoding utf-8
 
+=for stopwords ro rw rwp isa
+
 =head1 NAME
 
 Acme::Has::Tiny - tiny implementation of Moose-like "has" keyword
@@ -463,6 +465,16 @@ Returns the hashref or dies.
       ...; # other stuff here
       return $self;
    }
+
+=back
+
+=head2 Constants
+
+=over
+
+=item C<< CAN_HAZ_XS >>
+
+Whether Class::XSAccessor can be used.
 
 =back
 
