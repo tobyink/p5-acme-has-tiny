@@ -6,7 +6,7 @@ use warnings;
 no warnings qw(uninitialized once void numeric);
 
 our $AUTHORITY = "cpan:TOBYINK";
-our $VERSION   = "0.001";
+our $VERSION   = "0.002";
 
 use B qw(perlstring);
 use Scalar::Util qw(blessed);
